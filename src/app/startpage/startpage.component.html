@@ -1,25 +1,26 @@
 <div class="container">
-    <h1 class="box">Willkommen zur Stadtführung</h1>
-    <h3 class="box">Gib deinen Vornamen ein</h3>
-    <!-- 
-    <form #userName ="ngForm" (ngSubmit)="onClickSubmit(userName.value)">
-        <mat-form-field floatLabel="auto" appearance="outline" color="warn" class="btn">
-            <mat-label>Vorname</mat-label>
-            <input matInput required type="text" ngModel name="Vorname">
-            <mat-hint>Wird bei der Auswertung des Quizzes dir und anderen Teilnehmern angezeigt</mat-hint>
-        </mat-form-field>
-        <br><br>
-        <button mat-raised-button class="btn" type="submit">Weiter</button>
-    </form>
-    -->
+    <div class="mat-display-2">Willkommen zur Stadtführung Beilngries</div>
+    <div class="mat-title">Gib deinen Vornamen ein</div>
     <form #userName="ngForm" (ngSubmit)="onClickSubmit(userName.value)">
-        <mat-form-field>
+        <mat-form-field class="btn">
             <mat-label>Vorname: </mat-label>
             <input matInput required type="text" name="vorname" ngModel>
             <mat-hint>Ist später für dich und andere sichtbar</mat-hint>
         </mat-form-field>
         <br><br>
-        <button mat-raised-button class="btn" type="submit"><a routerLink="/groups" routerLinkActive="active">Weiter</a> </button>
+        <mat-form-field class="btn">
+            <mat-label>Nachname: </mat-label>
+            <input matInput required type="text" name="nachname" ngModel>
+            <mat-hint>Ist später für dich und andere sichtbar</mat-hint>
+        </mat-form-field>
+        <br><br>
+        <mat-form-field class="btn">
+            <mat-label>Sicherheitscode: </mat-label>
+            <input matInput required type="text" name="pin" ngModel>
+            <mat-hint>Erhältst du von deinem Stadtführer</mat-hint>
+        </mat-form-field>
+        <br><br>
+        <a routerLink="/groups"><button mat-raised-button class="btn" type="submit">Weiter</button></a>
     </form>
     
 </div>
