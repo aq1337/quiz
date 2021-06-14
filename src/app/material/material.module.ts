@@ -1,10 +1,17 @@
+import { MatInputModule } from '@angular/material/input';
 import { NgModule } from '@angular/core';
 import { MatButtonModule} from '@angular/material/button';
 import { MatToolbar, MatToolbarModule} from '@angular/material/toolbar'
+import { MatIconModule } from '@angular/material/icon'
+import { MatFormFieldModule} from '@angular/material/form-field'; 
+
 
 const material = [
   MatButtonModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatIconModule,
+  MatFormFieldModule,
+  MatInputModule
 ]
 
 @NgModule({

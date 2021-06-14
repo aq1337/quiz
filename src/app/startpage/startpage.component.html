@@ -1,7 +1,25 @@
-<div>
-    <h1>Willkommen zur Stadtführung</h1>
-    <h2>Gib deinen Vornamen ein</h2>
-    <form>
-        <input type="text">
+<div class="container">
+    <h1 class="box">Willkommen zur Stadtführung</h1>
+    <h3 class="box">Gib deinen Vornamen ein</h3>
+    <!-- 
+    <form #userName ="ngForm" (ngSubmit)="onClickSubmit(userName.value)">
+        <mat-form-field floatLabel="auto" appearance="outline" color="warn" class="btn">
+            <mat-label>Vorname</mat-label>
+            <input matInput required type="text" ngModel name="Vorname">
+            <mat-hint>Wird bei der Auswertung des Quizzes dir und anderen Teilnehmern angezeigt</mat-hint>
+        </mat-form-field>
+        <br><br>
+        <button mat-raised-button class="btn" type="submit">Weiter</button>
     </form>
+    -->
+    <form #userName="ngForm" (ngSubmit)="onClickSubmit(userName.value)">
+        <mat-form-field>
+            <mat-label>Vorname: </mat-label>
+            <input matInput required type="text" name="vorname" ngModel>
+            <mat-hint>Ist später für dich und andere sichtbar</mat-hint>
+        </mat-form-field>
+        <br><br>
+        <button mat-raised-button class="btn" type="submit"><a routerLink="/groups" routerLinkActive="active">Weiter</a> </button>
+    </form>
+    
 </div>
