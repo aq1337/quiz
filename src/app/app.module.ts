@@ -9,6 +9,8 @@ import { FormsModule} from '@angular/forms'
 import { NavbarComponent } from './navbar/navbar.component';
 import { StartpageComponent } from './startpage/startpage.component';
 import { GruppenauswahlComponent } from './gruppenauswahl/gruppenauswahl.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,13 @@ import { GruppenauswahlComponent } from './gruppenauswahl/gruppenauswahl.compone
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the app is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
