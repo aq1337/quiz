@@ -4,6 +4,7 @@ import { MatButtonModule} from '@angular/material/button';
 import { MatToolbar, MatToolbarModule} from '@angular/material/toolbar'
 import { MatIconModule } from '@angular/material/icon'
 import { MatFormFieldModule} from '@angular/material/form-field'; 
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 
 const material = [
@@ -11,7 +12,8 @@ const material = [
   MatToolbarModule,
   MatIconModule,
   MatFormFieldModule,
-  MatInputModule
+  MatInputModule,
+  MatSlideToggleModule
 ]
 
 @NgModule({

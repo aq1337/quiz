@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule} from '@angular/forms'
+import { FormsModule} from '@angular/forms' // Template Driven Forms
+import { ReactiveFormsModule} from '@angular/forms'
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { StartpageComponent } from './startpage/startpage.component';
@@ -25,6 +26,7 @@ import { environment } from '../environments/environment';
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
+    ReactiveFormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the app is stable

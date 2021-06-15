@@ -1,6 +1,13 @@
 .btn{
-    width: 75%;
+    width: 50%;
 }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    .btn{
+        width: 75%;
+    }
+  }
 
 .container{
     
@@ -9,9 +16,16 @@
     text-align: center;
 }
 
+
 .margin{
-    margin-top: 5%;
+    margin-top: 1%;
 }
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    .btn{
+        margin-top: 5%;
+    }
+  }
 
 a{
     color: white;

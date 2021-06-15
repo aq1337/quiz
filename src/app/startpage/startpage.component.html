@@ -1,26 +1,57 @@
-<div class="container">
+<!-- <div class="container">
     <div class="mat-display-2">Willkommen zur Stadtführung Beilngries</div>
     <div class="mat-title">Gib deinen Vornamen ein</div>
     <form #userName="ngForm" (ngSubmit)="onClickSubmit(userName.value)">
         <mat-form-field class="btn">
             <mat-label>Vorname: </mat-label>
-            <input matInput required type="text" name="vorname" ngModel>
+            <input matInput minlength="2" required type="text" name="vorname" ngModel>
             <mat-hint>Ist später für dich und andere sichtbar</mat-hint>
         </mat-form-field>
         <br><br>
         <mat-form-field class="btn">
             <mat-label>Nachname: </mat-label>
-            <input matInput required type="text" name="nachname" ngModel>
+            <input matInput minlength="2" required type="text" name="nachname" ngModel>
             <mat-hint>Ist später für dich und andere sichtbar</mat-hint>
         </mat-form-field>
         <br><br>
         <mat-form-field class="btn">
             <mat-label>Sicherheitscode: </mat-label>
-            <input matInput required type="text" name="pin" ngModel>
+            <input matInput minlength="2" required type="text" name="pin" ngModel>
             <mat-hint>Erhältst du von deinem Stadtführer</mat-hint>
         </mat-form-field>
         <br><br>
         <button mat-raised-button class="btn" type="submit">Weiter</button>
+    </form>
+    
+</div>
+
+-->
+
+<div class="container">
+    <div class="mat-display-2">Willkommen zur Stadtführung Beilngries</div>
+    <div class="mat-title">Gib deinen Vornamen ein</div>
+    <form [formGroup]="loginForm">
+        <fieldset formGroupName="name" class="border">
+        <mat-form-field class="btn">
+            <mat-label>Vorname: </mat-label>
+            <input matInput minlength="2" required type="text" name="vorname" formControlName="vorname">
+            <mat-hint>Ist später für dich und andere sichtbar</mat-hint>
+        </mat-form-field>
+        <br><br>
+        <mat-form-field class="btn">
+            <mat-label>Nachname: </mat-label>
+            <input matInput minlength="2" required type="text" name="nachname" formControlName="nachname">
+            <mat-hint>Ist später für dich und andere sichtbar</mat-hint>
+        </mat-form-field>
+        </fieldset>
+        <br><br>
+        <mat-form-field class="btn">
+            <mat-label>Sicherheitscode: </mat-label>
+            <input matInput minlength="2" required type="text" name="pin" formControlName="pass">
+            <mat-hint>Erhältst du von deinem Stadtführer</mat-hint>
+        </mat-form-field>
+        <br><br>
+        <button mat-raised-button class="btn" type="submit" [disabled]="loginForm.invalid" id="weiterButton" routerLink="/groups">Weiter</button>
     </form>
     
 </div>
