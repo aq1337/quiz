@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1623751767938,
+  "timestamp": 1623754869833,
   "index": "https://aq1337.github.io/quiz/index.html",
   "assetGroups": [
     {
@@ -11,9 +11,8 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://aq1337.github.io/quiz/favicon.ico",
         "https://aq1337.github.io/quiz/index.html",
-        "https://aq1337.github.io/quiz/main.2eddba8842389cd127ed.js",
+        "https://aq1337.github.io/quiz/main.3691dc0244d7bba6a662.js",
         "https://aq1337.github.io/quiz/manifest.webmanifest",
         "https://aq1337.github.io/quiz/polyfills.8c151b8375e767ff858f.js",
         "https://aq1337.github.io/quiz/runtime.0e49e2b53282f40c8925.js",
@@ -29,6 +28,13 @@
         "ignoreVary": true
       },
       "urls": [
+        "https://aq1337.github.io/quiz/assets/custom-icons/android-chrome-192x192.png",
+        "https://aq1337.github.io/quiz/assets/custom-icons/android-chrome-512x512.png",
+        "https://aq1337.github.io/quiz/assets/custom-icons/apple-touch-icon.png",
+        "https://aq1337.github.io/quiz/assets/custom-icons/favicon-16x16.png",
+        "https://aq1337.github.io/quiz/assets/custom-icons/favicon-32x32.png",
+        "https://aq1337.github.io/quiz/assets/custom-icons/favicon.ico",
+        "https://aq1337.github.io/quiz/assets/custom-icons/favicon.png",
         "https://aq1337.github.io/quiz/assets/icons/icon-128x128.png",
         "https://aq1337.github.io/quiz/assets/icons/icon-144x144.png",
         "https://aq1337.github.io/quiz/assets/icons/icon-152x152.png",
@@ -43,6 +49,13 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://aq1337.github.io/quiz/assets/custom-icons/android-chrome-192x192.png": "0c4aa9751c7cddca4c1d1f55b4bff69f9c42cb5a",
+    "https://aq1337.github.io/quiz/assets/custom-icons/android-chrome-512x512.png": "1c5f7dbfbaf6f59bf88fb0562492354affa8f186",
+    "https://aq1337.github.io/quiz/assets/custom-icons/apple-touch-icon.png": "d66e44f7de929788db587d8b5dd08faf3ac82cc4",
+    "https://aq1337.github.io/quiz/assets/custom-icons/favicon-16x16.png": "5afdd0855b804a8efdb052900aab9d40b91e00c4",
+    "https://aq1337.github.io/quiz/assets/custom-icons/favicon-32x32.png": "67c1c22fea4eb004ea0db16563dea2031c8f4c08",
+    "https://aq1337.github.io/quiz/assets/custom-icons/favicon.ico": "28bd3648ad53718ef00503813cd99d55dddf5af2",
+    "https://aq1337.github.io/quiz/assets/custom-icons/favicon.png": "67c1c22fea4eb004ea0db16563dea2031c8f4c08",
     "https://aq1337.github.io/quiz/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://aq1337.github.io/quiz/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "https://aq1337.github.io/quiz/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -51,9 +64,8 @@
     "https://aq1337.github.io/quiz/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://aq1337.github.io/quiz/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://aq1337.github.io/quiz/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://aq1337.github.io/quiz/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://aq1337.github.io/quiz/index.html": "5bd24d55226efc04c935232de0af6d88a53e7d98",
-    "https://aq1337.github.io/quiz/main.2eddba8842389cd127ed.js": "8323116078fbcb20ca3a58cc2657e6e748330512",
+    "https://aq1337.github.io/quiz/index.html": "7fb2ba2bc54706c2f71d473343622dce240c64a1",
+    "https://aq1337.github.io/quiz/main.3691dc0244d7bba6a662.js": "88c262ca9da39b47853e648df779d27062f77b93",
     "https://aq1337.github.io/quiz/manifest.webmanifest": "86daf43a8d69096a80fd2c28cb4d6b05f7a2bd06",
     "https://aq1337.github.io/quiz/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://aq1337.github.io/quiz/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
