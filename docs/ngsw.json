@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1623770634030,
+  "timestamp": 1623837016120,
   "index": "https://aq1337.github.io/quiz/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "https://aq1337.github.io/quiz/index.html",
-        "https://aq1337.github.io/quiz/main.501bb2df0dea4d617034.js",
+        "https://aq1337.github.io/quiz/main.e00e529a55c611770f38.js",
         "https://aq1337.github.io/quiz/manifest.webmanifest",
         "https://aq1337.github.io/quiz/polyfills.8c151b8375e767ff858f.js",
         "https://aq1337.github.io/quiz/runtime.0e49e2b53282f40c8925.js",
@@ -64,9 +64,9 @@
     "https://aq1337.github.io/quiz/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://aq1337.github.io/quiz/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://aq1337.github.io/quiz/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://aq1337.github.io/quiz/index.html": "1aa371b2365f4306e8bb8b8ce42dae3721a98d51",
-    "https://aq1337.github.io/quiz/main.501bb2df0dea4d617034.js": "fbe405a53d5a19bcaa021c1d790a53575e82a54f",
-    "https://aq1337.github.io/quiz/manifest.webmanifest": "86daf43a8d69096a80fd2c28cb4d6b05f7a2bd06",
+    "https://aq1337.github.io/quiz/index.html": "8194c96f97583173d75f3d8ed4894bccd143a738",
+    "https://aq1337.github.io/quiz/main.e00e529a55c611770f38.js": "e8e54926cc5d314f13083efde35d016c50038d74",
+    "https://aq1337.github.io/quiz/manifest.webmanifest": "8d9ffa4c387c87eeeb9442150eda6686bc743189",
     "https://aq1337.github.io/quiz/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "https://aq1337.github.io/quiz/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://aq1337.github.io/quiz/styles.40008cb58e713ca6dd4d.css": "7309c1ec211e95bb14302c25189b4a317ebbd647"
