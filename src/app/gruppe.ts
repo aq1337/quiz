@@ -1,4 +1,4 @@
-export interface Gruppen {
+export interface Gruppe {
         id: number,
         name: string,
         punkte: number,

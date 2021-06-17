@@ -11,8 +11,7 @@
 <div class="container">
     <div class="mat-title">Trete einer Gruppe bei um deine Ergebnisse mit anderen zu vergleichen</div>
     <br>
-    <div class="margin"><button class="btn" mat-flat-button>Gruppe 1</button></div>
-    <div class="margin"><button class="btn" mat-flat-button>Gruppe 2</button></div>
+    <div class="margin" *ngFor="let gruppe of gruppen"><button class="btn" mat-flat-button (click)="selectGroup(gruppe)">{{gruppe.name}}</button></div>
     <div class="margin"><button class="btn" mat-stroked-button (click)="toggleShow()"><mat-icon>control_point</mat-icon> Neue Gruppe Anlegen</button></div>
     <div *ngIf="isShown" id="divshow">
         <form>
