@@ -12,14 +12,17 @@ import { StartpageComponent } from './startpage/startpage.component';
 import { GruppenauswahlComponent } from './gruppenauswahl/gruppenauswahl.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { RateThisAppComponent } from './rate-this-app/rate-this-app.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     StartpageComponent,
-    GruppenauswahlComponent
+    GruppenauswahlComponent,
+    RateThisAppComponent
   ],
+  entryComponents: [RateThisAppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

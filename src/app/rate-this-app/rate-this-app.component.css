@@ -1,0 +1,48 @@
+@keyframes heart-pulse {
+    0% {transform: scale(0.75, 0.75);}
+    30% {transform: scale(1, 1);}
+}
+
+
+.heart {
+  font-size: 90px;
+  line-height: 1;
+  color: red;
+  margin: 0 auto;
+  padding: 0;
+  animation: heart-pulse 0.8s ease-out alternate;
+  animation-iteration-count: infinite;
+}
+
+
+.panel {
+  margin: 25%;
+  display: flex;
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover,
+  .rating > span:hover ~ span {
+    color: transparent;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+     left: 0; 
+     color: gold;
+  }

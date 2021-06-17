@@ -7,6 +7,7 @@ import { MatFormFieldModule} from '@angular/material/form-field';
 import { MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { MatDividerModule} from '@angular/material/divider'; 
 import { MatListModule} from '@angular/material/list';
+import { MatDialogModule} from '@angular/material/dialog';
 
 
 const material = [
@@ -17,7 +18,8 @@ const material = [
   MatInputModule,
   MatSlideToggleModule,
   MatDividerModule,
-  MatListModule
+  MatListModule,
+  MatDialogModule
 ]
 
 @NgModule({
