@@ -1,4 +1,5 @@
-import { Component, OnInit, } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 import { FormGroup, FormControl, Validators } from '@angular/forms'
 import { User } from '../user';
 
@@ -9,6 +10,9 @@ import { User } from '../user';
 })
 export class StartpageComponent implements OnInit {
 
+  @Input() user: User;
+  @Output() edit = new EventEmitter();
+
   loginForm = new FormGroup({
     name: new FormGroup({
       vorname: new FormControl(null,[Validators.required, Validators.minLength(2)]),
@@ -17,10 +21,9 @@ export class StartpageComponent implements OnInit {
     pass: new FormControl(null, [Validators.required, Validators.minLength(4), Validators.maxLength(4)])
   });
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
-  
 }
