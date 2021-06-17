@@ -11,14 +11,23 @@
 <div class="container">
     <div class="mat-title">Trete einer Gruppe bei um deine Ergebnisse mit anderen zu vergleichen</div>
     <br>
-    <div class="margin"><button class="btn" mat-flat-button>Gruppe 1 <mat-slide-toggle
-        [checked]="false">
-    </mat-slide-toggle></button></div>
-    <div class="margin"><button class="btn" mat-flat-button>Gruppe 2 <mat-slide-toggle
-        class="example-margin"
-        [checked]="false">
-    </mat-slide-toggle></button></div>
-    <div class="margin"><button class="btn" mat-stroked-button><mat-icon>control_point</mat-icon> Neue Gruppe Anlegen</button></div>
-    <div class="mat-caption margin"><a href="#">Ohne Gruppe fortfahren</a></div>
-    
+    <div class="margin"><button class="btn" mat-flat-button>Gruppe 1</button></div>
+    <div class="margin"><button class="btn" mat-flat-button>Gruppe 2</button></div>
+    <div class="margin"><button class="btn" mat-stroked-button (click)="toggleShow()"><mat-icon>control_point</mat-icon> Neue Gruppe Anlegen</button></div>
+    <div *ngIf="isShown" id="divshow">
+        <form>
+            <mat-form-field class="btn">
+                <mat-label>Gruppenname</mat-label>
+                <input matInput type="text">
+                <button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+                  <mat-icon>close</mat-icon>
+                </button>
+            </mat-form-field>
+            <br>
+            <button mat-button class="btn">Gruppe anlegen</button>
+              
+        </form>
+          
+        
+    </div>
 </div>
