@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "stadtfuehrung-beilngries": {
+      "hosting": {
+        "quiz": [
+          "stadtfuehrung-beilngries"
+        ]
+      }
+    }
+  }
+}
