@@ -12,12 +12,13 @@
   padding: 0;
   animation: heart-pulse 0.8s ease-out alternate;
   animation-iteration-count: infinite;
+  
 }
 
 
 .panel {
-  margin: 25%;
   display: flex;
+  justify-content: center;
   text-align: center;
 }
 
@@ -29,6 +30,7 @@
     unicode-bidi: bidi-override;
     direction: rtl;
     text-align: center;
+    font-size: 3em;
   }
   .rating > span {
     display: inline-block;
@@ -45,4 +47,10 @@
      position: absolute;
      left: 0; 
      color: gold;
+  }
+
+
+  .center{
+    display: flex;
+    justify-content: center;
   }
