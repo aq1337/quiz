@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1623999781277,
+  "timestamp": 1624219475280,
   "index": "https://aq1337.github.io/quiz/index.html",
   "assetGroups": [
     {
@@ -12,11 +12,11 @@
       },
       "urls": [
         "https://aq1337.github.io/quiz/index.html",
-        "https://aq1337.github.io/quiz/main.302d4272417d129da0fd.js",
+        "https://aq1337.github.io/quiz/main.0eb8ad525d0405bc245a.js",
         "https://aq1337.github.io/quiz/manifest.webmanifest",
-        "https://aq1337.github.io/quiz/polyfills.8c151b8375e767ff858f.js",
-        "https://aq1337.github.io/quiz/runtime.0e49e2b53282f40c8925.js",
-        "https://aq1337.github.io/quiz/styles.4012f1541b07ce3bc20c.css"
+        "https://aq1337.github.io/quiz/polyfills.ea3166ade53bb0d853b3.js",
+        "https://aq1337.github.io/quiz/runtime.6d1a125f8f418ac66c38.js",
+        "https://aq1337.github.io/quiz/styles.78e62f4a1f4ec385aec6.css"
       ],
       "patterns": []
     },
@@ -64,12 +64,12 @@
     "https://aq1337.github.io/quiz/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://aq1337.github.io/quiz/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://aq1337.github.io/quiz/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://aq1337.github.io/quiz/index.html": "c8da581a3fe7e3ee3869635617dc66e41689fadc",
-    "https://aq1337.github.io/quiz/main.302d4272417d129da0fd.js": "587529f543c9fb6624fcaba2325557452ded8679",
+    "https://aq1337.github.io/quiz/index.html": "0a01569c5a9eb2f7b5c6251816eed0ccb1117e06",
+    "https://aq1337.github.io/quiz/main.0eb8ad525d0405bc245a.js": "2b9be6a85a8a5fff333f71aae21c669c2752c274",
     "https://aq1337.github.io/quiz/manifest.webmanifest": "9ef1603b42052c63d9841adf571d3844c13c3b1f",
-    "https://aq1337.github.io/quiz/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "https://aq1337.github.io/quiz/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://aq1337.github.io/quiz/styles.4012f1541b07ce3bc20c.css": "7309c1ec211e95bb14302c25189b4a317ebbd647"
+    "https://aq1337.github.io/quiz/polyfills.ea3166ade53bb0d853b3.js": "f36bafd4bef056331a55cf94b1d89f82092d2742",
+    "https://aq1337.github.io/quiz/runtime.6d1a125f8f418ac66c38.js": "178c7f6a02e21053386b6b8203d33b7628c1fbd7",
+    "https://aq1337.github.io/quiz/styles.78e62f4a1f4ec385aec6.css": "afa61d4dd16bb0087ad5235034af6861684f87af"
   },
   "navigationUrls": [
     {
